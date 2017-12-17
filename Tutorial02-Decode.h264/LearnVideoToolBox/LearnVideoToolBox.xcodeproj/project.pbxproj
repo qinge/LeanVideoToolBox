@@ -16,6 +16,9 @@
 		183720E21FE51AC400D22B8E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183720E11FE51AC400D22B8E /* AVFoundation.framework */; };
 		183720E41FE51ACF00D22B8E /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183720E31FE51ACF00D22B8E /* VideoToolbox.framework */; };
 		183720E71FE51C3000D22B8E /* LYOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183720E61FE51C3000D22B8E /* LYOpenGLView.m */; };
+		18A77A951FE64F4700ED7071 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 18A77A931FE64F4700ED7071 /* Shader.fsh */; };
+		18A77A961FE64F4700ED7071 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 18A77A941FE64F4700ED7071 /* Shader.vsh */; };
+		18A77A9A1FE65F1300ED7071 /* abc.h264 in Resources */ = {isa = PBXBuildFile; fileRef = 18A77A991FE65F1300ED7071 /* abc.h264 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		183720E31FE51ACF00D22B8E /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		183720E51FE51C3000D22B8E /* LYOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYOpenGLView.h; sourceTree = "<group>"; };
 		183720E61FE51C3000D22B8E /* LYOpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYOpenGLView.m; sourceTree = "<group>"; };
+		18A77A931FE64F4700ED7071 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		18A77A941FE64F4700ED7071 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		18A77A991FE65F1300ED7071 /* abc.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = abc.h264; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				183720D91FE51A8B00D22B8E /* main.m */,
 				183720E51FE51C3000D22B8E /* LYOpenGLView.h */,
 				183720E61FE51C3000D22B8E /* LYOpenGLView.m */,
+				18A77A931FE64F4700ED7071 /* Shader.fsh */,
+				18A77A941FE64F4700ED7071 /* Shader.vsh */,
+				18A77A991FE65F1300ED7071 /* abc.h264 */,
 			);
 			path = LearnVideoToolBox;
 			sourceTree = "<group>";
@@ -150,9 +159,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A77A9A1FE65F1300ED7071 /* abc.h264 in Resources */,
+				18A77A951FE64F4700ED7071 /* Shader.fsh in Resources */,
 				183720D71FE51A8B00D22B8E /* LaunchScreen.storyboard in Resources */,
 				183720D41FE51A8B00D22B8E /* Assets.xcassets in Resources */,
 				183720D21FE51A8B00D22B8E /* Main.storyboard in Resources */,
+				18A77A961FE64F4700ED7071 /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
