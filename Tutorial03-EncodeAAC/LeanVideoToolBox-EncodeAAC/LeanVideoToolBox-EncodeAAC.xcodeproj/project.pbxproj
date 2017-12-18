@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181C767C1FE7E2920063B965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C767B1FE7E2920063B965 /* AppDelegate.m */; };
+		181C767F1FE7E2920063B965 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C767E1FE7E2920063B965 /* ViewController.m */; };
+		181C76821FE7E2920063B965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C76801FE7E2920063B965 /* Main.storyboard */; };
+		181C76841FE7E2920063B965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181C76831FE7E2920063B965 /* Assets.xcassets */; };
+		181C76871FE7E2920063B965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C76851FE7E2920063B965 /* LaunchScreen.storyboard */; };
+		181C768A1FE7E2920063B965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C76891FE7E2920063B965 /* main.m */; };
+		181C76921FE7E32A0063B965 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181C76911FE7E32A0063B965 /* VideoToolbox.framework */; };
+		181C76951FE7E4600063B965 /* AACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 181C76941FE7E4600063B965 /* AACEncoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181C76771FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LeanVideoToolBox-EncodeAAC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		181C767A1FE7E2920063B965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181C767B1FE7E2920063B965 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181C767D1FE7E2920063B965 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181C767E1FE7E2920063B965 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181C76811FE7E2920063B965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181C76831FE7E2920063B965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181C76861FE7E2920063B965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181C76881FE7E2920063B965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181C76891FE7E2920063B965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181C76911FE7E32A0063B965 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		181C76931FE7E4600063B965 /* AACEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AACEncoder.h; sourceTree = "<group>"; };
+		181C76941FE7E4600063B965 /* AACEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AACEncoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181C76741FE7E2920063B965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C76921FE7E32A0063B965 /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181C766E1FE7E2920063B965 = {
+			isa = PBXGroup;
+			children = (
+				181C76791FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC */,
+				181C76781FE7E2920063B965 /* Products */,
+				181C76901FE7E3290063B965 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181C76781FE7E2920063B965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181C76771FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181C76791FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC */ = {
+			isa = PBXGroup;
+			children = (
+				181C767A1FE7E2920063B965 /* AppDelegate.h */,
+				181C767B1FE7E2920063B965 /* AppDelegate.m */,
+				181C767D1FE7E2920063B965 /* ViewController.h */,
+				181C767E1FE7E2920063B965 /* ViewController.m */,
+				181C76801FE7E2920063B965 /* Main.storyboard */,
+				181C76831FE7E2920063B965 /* Assets.xcassets */,
+				181C76851FE7E2920063B965 /* LaunchScreen.storyboard */,
+				181C76881FE7E2920063B965 /* Info.plist */,
+				181C76891FE7E2920063B965 /* main.m */,
+				181C76931FE7E4600063B965 /* AACEncoder.h */,
+				181C76941FE7E4600063B965 /* AACEncoder.m */,
+			);
+			path = "LeanVideoToolBox-EncodeAAC";
+			sourceTree = "<group>";
+		};
+		181C76901FE7E3290063B965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181C76911FE7E32A0063B965 /* VideoToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181C76761FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181C768D1FE7E2920063B965 /* Build configuration list for PBXNativeTarget "LeanVideoToolBox-EncodeAAC" */;
+			buildPhases = (
+				181C76731FE7E2920063B965 /* Sources */,
+				181C76741FE7E2920063B965 /* Frameworks */,
+				181C76751FE7E2920063B965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeanVideoToolBox-EncodeAAC";
+			productName = "LeanVideoToolBox-EncodeAAC";
+			productReference = 181C76771FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181C766F1FE7E2920063B965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					181C76761FE7E2920063B965 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 181C76721FE7E2920063B965 /* Build configuration list for PBXProject "LeanVideoToolBox-EncodeAAC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181C766E1FE7E2920063B965;
+			productRefGroup = 181C76781FE7E2920063B965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181C76761FE7E2920063B965 /* LeanVideoToolBox-EncodeAAC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181C76751FE7E2920063B965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C76871FE7E2920063B965 /* LaunchScreen.storyboard in Resources */,
+				181C76841FE7E2920063B965 /* Assets.xcassets in Resources */,
+				181C76821FE7E2920063B965 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181C76731FE7E2920063B965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181C76951FE7E4600063B965 /* AACEncoder.m in Sources */,
+				181C767F1FE7E2920063B965 /* ViewController.m in Sources */,
+				181C768A1FE7E2920063B965 /* main.m in Sources */,
+				181C767C1FE7E2920063B965 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181C76801FE7E2920063B965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181C76811FE7E2920063B965 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181C76851FE7E2920063B965 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181C76861FE7E2920063B965 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181C768B1FE7E2920063B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181C768C1FE7E2920063B965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181C768E1FE7E2920063B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 83A76GE82G;
+				INFOPLIST_FILE = "LeanVideoToolBox-EncodeAAC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.qin.LeanVideoToolBox-EncodeAAC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e3f73598-5a23-46fb-88c1-c6551725a3af";
+				PROVISIONING_PROFILE_SPECIFIER = CommonProfile;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181C768F1FE7E2920063B965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "LeanVideoToolBox-EncodeAAC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.qin.LeanVideoToolBox-EncodeAAC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181C76721FE7E2920063B965 /* Build configuration list for PBXProject "LeanVideoToolBox-EncodeAAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C768B1FE7E2920063B965 /* Debug */,
+				181C768C1FE7E2920063B965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181C768D1FE7E2920063B965 /* Build configuration list for PBXNativeTarget "LeanVideoToolBox-EncodeAAC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181C768E1FE7E2920063B965 /* Debug */,
+				181C768F1FE7E2920063B965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181C766F1FE7E2920063B965 /* Project object */;
+}
