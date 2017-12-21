@@ -13,9 +13,9 @@
 
 @interface AACEncoder : NSObject
 
-@property (nonatomic) dispatch_queue_t encoderQueue;
-@property (nonatomic) dispatch_queue_t callbackQueue;
+@property (nonatomic, strong) dispatch_queue_t encoderQueue;
+@property (nonatomic, strong) dispatch_queue_t callbackQueue;
 
-//-()
+-(void)encodeSampleBuffer:(CMSampleBufferRef)sampleBuffer completionBlock:(void (^)(NSData *encodedData, NSError *error)) completionBlock;
 
 @end
